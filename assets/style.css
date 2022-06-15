@@ -1,0 +1,20 @@
+*{
+    background-color: aquamarine;
+}
+header h1{
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    position: fixed;
+    
+}
+footer h3{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+text-align: center;
+}
