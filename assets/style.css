@@ -1,47 +1,58 @@
 *{
-    background-color: rgb(154, 161, 159);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(141, 185, 236);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
-header h1{
-    text-align: center;
+header{
+    position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 30px;
-    position: fixed;
-    background-color: cornflowerblue;
+    background-color: white;
 }
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #000000;
+    background-color: white;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    color:black;
+    background-color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+}
+
 .image{
     text-align: center;
     margin-top: 200px;
     color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
-.email{
-    position: absolute;
-    left: 870px;
-
+main{
+    position:static;
+    
+    text-align: center;
+    
 }
-
-.button1{
-    position: absolute;
-    left: 1050px;
-}
-.phone{
-    position: absolute;
-    left: 870px;
-    top:550px;
-
-}
-
-.button2{
-    position: absolute;
-    left: 1050px;
-    top:550px;
-}
-
-
-
 
 footer h3{
     position:fixed;
