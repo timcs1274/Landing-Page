@@ -1,5 +1,6 @@
 *{
-    background-color: aquamarine;
+    background-color: rgb(154, 161, 159);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
 header h1{
     text-align: center;
@@ -8,8 +9,40 @@ header h1{
     right: 0px;
     height: 30px;
     position: fixed;
-    
+    background-color: cornflowerblue;
 }
+.image{
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.email{
+    position: absolute;
+    left: 870px;
+
+}
+
+.button1{
+    position: absolute;
+    left: 1050px;
+}
+.phone{
+    position: absolute;
+    left: 870px;
+    top:550px;
+
+}
+
+.button2{
+    position: absolute;
+    left: 1050px;
+    top:550px;
+}
+
+
+
+
 footer h3{
     position:fixed;
     bottom: 0px;
